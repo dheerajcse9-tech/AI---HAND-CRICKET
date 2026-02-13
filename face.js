@@ -74,27 +74,27 @@ function extractFeatures(lm){
 
 // ---------------- Player Signatures ----------------
 const profiles = [
-  {name:"virat", img:"face-images/virat.png", f:[0.78,0.72,0.36,0.23,0.32,0.06]},
-  {name:"sachin", img:"face-images/sachin.png", f:[0.82,0.76,0.38,0.25,0.34,0.07]},
-  {name:"rohit", img:"face-images/rohit.png", f:[0.88,0.82,0.34,0.27,0.35,0.07]},
-  {name:"dhoni", img:"face-images/dhoni.png", f:[0.80,0.74,0.35,0.24,0.33,0.06]},
-  {name:"rahul", img:"face-images/rahul.png", f:[0.77,0.71,0.36,0.23,0.32,0.06]},
-  {name:"shreyas", img:"face-images/shreyas.png", f:[0.76,0.70,0.37,0.24,0.31,0.06]},
-  {name:"sanju", img:"face-images/sanju.png", f:[0.79,0.73,0.35,0.24,0.33,0.06]},
-  {name:"ishan", img:"face-images/ishan.png", f:[0.83,0.78,0.34,0.26,0.34,0.07]},
-  {name:"gill", img:"face-images/gill.png", f:[0.75,0.69,0.38,0.22,0.31,0.06]},
-  {name:"jaiswal", img:"face-images/jaiswal.png", f:[0.74,0.68,0.39,0.22,0.30,0.06]},
-  {name:"abhishek", img:"face-images/abhishek.png", f:[0.84,0.79,0.33,0.27,0.35,0.07]},
-  {name:"rinku", img:"face-images/rinku.png", f:[0.86,0.81,0.32,0.27,0.35,0.07]},
-  {name:"hardik", img:"face-images/hardik.png", f:[0.78,0.71,0.37,0.23,0.32,0.06]},
-  {name:"axar", img:"face-images/axar.png", f:[0.87,0.83,0.33,0.27,0.36,0.07]},
-  {name:"jadeja", img:"face-images/jadeja.png", f:[0.81,0.75,0.35,0.24,0.33,0.06]},
-  {name:"dube", img:"face-images/dube.png", f:[0.89,0.85,0.31,0.28,0.36,0.07]},
-  {name:"bumrah", img:"face-images/bumrah.png", f:[0.72,0.66,0.40,0.21,0.30,0.06]},
-  {name:"siraj", img:"face-images/siraj.png", f:[0.74,0.67,0.39,0.22,0.30,0.06]},
-  {name:"shami", img:"face-images/shami.png", f:[0.76,0.70,0.37,0.23,0.31,0.06]},
-  {name:"kuldeep", img:"face-images/kuldeep.png", f:[0.83,0.78,0.34,0.26,0.34,0.07]},
-  {name:"arshdeep", img:"face-images/arshdeep.png", f:[0.71,0.65,0.41,0.21,0.29,0.06]}
+  {name:"virat", img:"virat.png", f:[0.78,0.72,0.36,0.23,0.32,0.06]},
+  {name:"sachin", img:"sachin.png", f:[0.82,0.76,0.38,0.25,0.34,0.07]},
+  {name:"rohit", img:"rohit.png", f:[0.88,0.82,0.34,0.27,0.35,0.07]},
+  {name:"dhoni", img:"dhoni.png", f:[0.80,0.74,0.35,0.24,0.33,0.06]},
+  {name:"rahul", img:"rahul.png", f:[0.77,0.71,0.36,0.23,0.32,0.06]},
+  {name:"shreyas", img:"shreyas.png", f:[0.76,0.70,0.37,0.24,0.31,0.06]},
+  {name:"sanju", img:"sanju.png", f:[0.79,0.73,0.35,0.24,0.33,0.06]},
+  {name:"ishan", img:"ishan.png", f:[0.83,0.78,0.34,0.26,0.34,0.07]},
+  {name:"gill", img:"gill.png", f:[0.75,0.69,0.38,0.22,0.31,0.06]},
+  {name:"jaiswal", img:"jaiswal.png", f:[0.74,0.68,0.39,0.22,0.30,0.06]},
+  {name:"abhishek", img:"abhishek.png", f:[0.84,0.79,0.33,0.27,0.35,0.07]},
+  {name:"rinku", img:"rinku.png", f:[0.86,0.81,0.32,0.27,0.35,0.07]},
+  {name:"hardik", img:"hardik.png", f:[0.78,0.71,0.37,0.23,0.32,0.06]},
+  {name:"axar", img:"axar.png", f:[0.87,0.83,0.33,0.27,0.36,0.07]},
+  {name:"jadeja", img:"jadeja.png", f:[0.81,0.75,0.35,0.24,0.33,0.06]},
+  {name:"dube", img:"dube.png", f:[0.89,0.85,0.31,0.28,0.36,0.07]},
+  {name:"bumrah", img:"bumrah.png", f:[0.72,0.66,0.40,0.21,0.30,0.06]},
+  {name:"siraj", img:"siraj.png", f:[0.74,0.67,0.39,0.22,0.30,0.06]},
+  {name:"shami", img:"shami.png", f:[0.76,0.70,0.37,0.23,0.31,0.06]},
+  {name:"kuldeep", img:"kuldeep.png", f:[0.83,0.78,0.34,0.26,0.34,0.07]},
+  {name:"arshdeep", img:"arshdeep.png", f:[0.71,0.65,0.41,0.21,0.29,0.06]}
 ];
 
 // ---------------- Matching ----------------
