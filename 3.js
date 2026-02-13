@@ -51,7 +51,7 @@ function playMove(playerMove) {
   const aiMove = getAIMove();
 
   document.getElementById("aiHandImage").src =
-    `hand-images/${aiMove}.png`;
+    ${aiMove}.png;
 
   document.getElementById("aiHandImage").style.display="block";
   document.getElementById("aiMoveText").innerText =
