@@ -75,7 +75,6 @@ function extractFeatures(lm){
 // ---------------- Player Signatures ----------------
 const profiles = [
   {name:"virat", img:"virat.png", f:[0.78,0.72,0.36,0.23,0.32,0.06]},
-  {name:"sachin", img:"sachin.png", f:[0.82,0.76,0.38,0.25,0.34,0.07]},
   {name:"rohit", img:"rohit.png", f:[0.88,0.82,0.34,0.27,0.35,0.07]},
   {name:"dhoni", img:"dhoni.png", f:[0.80,0.74,0.35,0.24,0.33,0.06]},
   {name:"rahul", img:"rahul.png", f:[0.77,0.71,0.36,0.23,0.32,0.06]},
