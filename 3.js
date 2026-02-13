@@ -50,8 +50,9 @@ function playMove(playerMove) {
 
   const aiMove = getAIMove();
 
-  document.getElementById("aiHandImage").src =
-    '${aiMove}.png';
+document.getElementById("aiHandImage").src =
+  `./${aiMove}.png`;
+
 
   document.getElementById("aiHandImage").style.display="block";
   document.getElementById("aiMoveText").innerText =
